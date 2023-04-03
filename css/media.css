@@ -1,0 +1,402 @@
+@media (max-width: 1083px) {
+  .benefits__head {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1023px) {
+  .support__offer {
+    gap: 50px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1006px) {
+  .media-video {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 988px) {
+  .footer-links__wrapper {
+    justify-content: center;
+  }
+  .footer-links__box--last {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 898px) {
+  .footer-links__box--last {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 888px) {
+  .subscribe-logos {
+    justify-content: space-around;
+  }
+  .subscribe__bg--bottom {
+    display: none;
+  }
+  .subscribe__form {
+    top: 0px;
+    min-width: 100vw;
+    margin-bottom: 50px;
+  }
+
+  .support__text {
+    padding-top: 80px;
+    text-align: center;
+    margin-top: -75px;
+  }
+}
+
+@media (max-width: 880px) {
+  .subscribe__form {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .subscribe__input {
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+  .subscribe__text {
+    padding-left: 10px;
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+ 
+}
+
+@media (max-width: 791px) {
+  .menu__icons--hidden {
+    display: block;
+    position: absolute;
+    right: 95px;
+    z-index: 6;
+  }
+
+  .icon__search {
+    margin-right: 24px;
+  }
+
+  .menu__btn {
+    display: block;
+    position: absolute;
+    z-index: 4;
+  }
+
+  .menu__btn:active span {
+    background-color: #252b42;
+  }
+  .menu__btn:active span::after {
+    background-color: #252b42;
+  }
+  .menu__btn:active span::before {
+    background-color: #252b42;
+  }
+
+  .menu__list {
+    display: block;
+    margin-left: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    padding: 30px 0;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 450px;
+    transition-duration: 0.5s;
+    text-align: center;
+    z-index: 2;
+  }
+  .menu__item + .menu__item {
+    margin-left: 0;
+  }
+
+  #menu__toggle:checked ~ .menu__list {
+    right: 0;
+    transition-duration: 0.5s;
+  }
+
+  .menu__link {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .logo {
+    position: relative;
+    z-index: 7;
+  }
+
+  .menu__list li:first-child {
+    padding-top: 90px;
+  }
+
+  .menu__list li {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 728px) {
+  .consulting__wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 643px) {
+  .copyright__wrapper {
+    justify-content: center;
+    max-width: 231px;
+    margin: 0 auto;
+  }
+  .copyright__social {
+    margin-right: 75px;
+  }
+}
+@media (max-width: 634px) {
+  .footer-links__box:nth-child(4) {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 618px) {
+  .media-video__video {
+    width: 333px;
+    height: 442px;
+  }
+  .media-video__content {
+    min-width: 333px;
+    max-height: 442px;
+  }
+  .video__btn {
+    left: 118px;
+  }
+}
+
+@media (max-width: 570px) {
+  .subscribe__input > input {
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 484px) {
+  .footer-links__box:nth-child(3) {
+    padding-top: 0;
+  }
+}
+
+.support {
+  padding-bottom: 60px;
+}
+
+/* @media (max-width: 439px) {
+  .subscribe__form {
+    top: 374px;
+  }
+} */
+
+@media (max-width: 416px) {
+  .header {
+    margin-bottom: 100px;
+  }
+
+  .title__text {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    max-width: 346px;
+  }
+
+  .title__subtext {
+    text-align: center;
+    max-width: 279px;
+    min-height: 120px;
+    display: inline-block;
+  }
+
+  .title__buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .title__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .achievements {
+    margin-bottom: 80px;
+  }
+
+  .achievements__title {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+
+  .achievements__subtitle {
+    max-width: 225px;
+  }
+
+  .advice__title {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .advice__subtitle {
+    max-width: 225px;
+  }
+
+  .media {
+    padding-bottom: 40px;
+  }
+
+  .media__text {
+    padding-top: 35px;
+  }
+
+  .media__title {
+    max-width: 308px;
+  }
+
+  .media__subtitle {
+    max-width: 225px;
+  }
+
+  .video__title {
+    max-width: 333px;
+  }
+
+  .video__subtitle {
+    margin: 0;
+    max-width: 333px;
+  }
+
+  .video__image {
+    max-width: 333px;
+    max-height: 442px;
+  }
+  .subscribe-logos {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .consulting__text {
+    max-width: 239px;
+  }
+
+  .consulting__subtitle {
+    max-width: 184px;
+  }
+
+  .consulting__btn {
+    margin-right: 77px;
+  }
+  .footer-links__wrapper {
+    padding-left: 70px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .footer-links__box--second {
+    padding-top: 0px;
+  }
+
+  .footer-links__box {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 385px) {
+  .subscribe__input > input {
+    min-width: 193px;
+  }
+  .footer-links__wrapper {
+    padding-left: 53px;
+  }
+}
+
+@media (max-width: 370px) {
+  .benefits__inner {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .benefits__title {
+    font-size: 20px;
+  }
+
+  .title__buttons {
+    margin-top: 10px;
+  }
+  .footer-links__wrapper {
+    padding-left: 47px;
+  }
+}
+
+@media (max-width: 358px) {
+  .subscribe__btn {
+    padding: 14px 6px;
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding: 15px 0 15px 0px;
+  }
+  .subscribe__input > input {
+    padding-top: 20px;
+    padding-bottom: 21px;
+    padding-left: 15px;
+    min-width: 188px;
+  }
+
+  .menu__btn {
+    right: 15px;
+  }
+  .menu__icons--hidden {
+    right: 73px;
+  }
+  .icon__search {
+    margin-right: 15px;
+  }
+  .footer-links__wrapper {
+    padding-left: 43px;
+  }
+  .support-box {
+    min-width: 300px;
+    min-height: 333px;
+  }
+  .support-box__inner::after {
+    min-width: 300px;
+  }
+  .media-video__video {
+    width: 319px;
+  }
+  .media-video__content {
+    min-width: 319px;
+  }
+  .video__btn {
+    left: 108px;
+  }
+}
+@media (max-width: 333px) {
+  .footer-links__wrapper {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-links__wrapper {
+    padding-left: 25px;
+  }
+}
